@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@module-federation/nextjs-mf':
-        specifier: '7'
-        version: 7.0.8(next@13.5.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-jsx@5.1.1(react@18.3.1))(webpack@5.91.0)
       next:
         specifier: 13.5.6
         version: 13.5.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -20,10 +17,10 @@ importers:
       react-dom:
         specifier: ^18
         version: 18.3.1(react@18.3.1)
-      webpack:
-        specifier: ^5.91.0
-        version: 5.91.0
     devDependencies:
+      '@module-federation/nextjs-mf':
+        specifier: ^7.0.8
+        version: 7.0.8(next@13.5.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-jsx@5.1.1(react@18.3.1))(webpack@5.91.0)
       '@types/node':
         specifier: ^20
         version: 20.12.7
@@ -51,6 +48,9 @@ importers:
       typescript:
         specifier: ^5
         version: 5.4.5
+      webpack:
+        specifier: ^5.91.0
+        version: 5.91.0
 
 packages:
 
